@@ -55,7 +55,7 @@ public class MainActivity extends BaseActivity implements
     private static final String TAG = MainActivity.class.getSimpleName();
 
     //go to https://code.google.com/apis/console to register an app and get a key!
-    private static final String PLACES_API_KEY = Secrets.PLACES_API_KEY;
+    //private static final String PLACES_API_KEY = Secrets.PLACES_API_KEY;
 
     private static final String STATE_RESOLVING_ERROR = "resolving_error";
 
@@ -112,7 +112,7 @@ public class MainActivity extends BaseActivity implements
         initSensors();
 
         buildGoogleApiClient();
-        buildPlacesApi();
+        //buildPlacesApi();
     }
 
     private void initViews() {
@@ -137,7 +137,7 @@ public class MainActivity extends BaseActivity implements
     }
 
     private void buildPlacesApi() {
-        mPlacesApi = new GooglePlaces(PLACES_API_KEY);
+       // mPlacesApi = new GooglePlaces(PLACES_API_KEY);
     }
 
     @Override
@@ -164,12 +164,12 @@ public class MainActivity extends BaseActivity implements
         mDirectionalTextViewContainer.startDrawing();
 
         //animateIn
-        if(mIsFirstRun)
+        /**if(mIsFirstRun)
         {
             animateTitleIn();
             mIsFirstRun = false;
             return;
-        }
+        }*/
 
         //resuming from pause/maps
         if(mHasPlaces)

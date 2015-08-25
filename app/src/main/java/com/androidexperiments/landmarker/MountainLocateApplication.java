@@ -10,9 +10,9 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 /**
  * setup fonts and shit
  */
-public class LandmarkerApplication extends Application
+public class MountainLocateApplication extends Application
 {
-    private static final String TAG = LandmarkerApplication.class.getSimpleName();
+    private static final String TAG = MountainLocateApplication.class.getSimpleName();
 
     @Override
     public void onCreate() {

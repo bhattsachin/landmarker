@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bhatt.peek.widget.BaseViewContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/direction_view">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:id="@+id/direction_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:lineSpacingExtra="-45sp"
+        android:maxLines="2"
+        android:text="Current Direction"
+        android:ellipsize="end"/>
+
+
+
+
+
+</com.bhatt.peek.widget.BaseViewContainer>

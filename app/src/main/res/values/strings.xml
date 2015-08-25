@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Landmarker</string>
+    <string name="app_name">RightPeak</string>
 
     <string name="intro_finding_you">Finding you!</string>
     <string name="intro_finding_places">Finding places!</string>
@@ -10,6 +10,6 @@
     <string name="info_exit_btn">Exit Info</string>
     <string name="info_title">About</string>
 
-    <string name="about_app">Landmarker was created by Anthony Tripaldi at the Google Creative Lab. Go to androidexperiments.com to see other experiments.</string>
-    <string name="about_github">Code is open sourced and can be found at\nhttps://github.com/googlecreativelab/landmarker</string>
+    <string name="about_app">RightPeak is based on code from LandMarker app from androidexperiments.com </string>
+    <string name="about_github">details to follow</string>
 </resources>
